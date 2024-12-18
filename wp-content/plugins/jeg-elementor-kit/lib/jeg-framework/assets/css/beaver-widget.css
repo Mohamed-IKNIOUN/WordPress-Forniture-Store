@@ -1,0 +1,64 @@
+.fl-field .jeg_accordion_heading {
+    line-height: 36px;
+}
+
+.fl-field .jeg_accordion_button {
+    font-family: FontAwesome, Helvetica, Arial, sans-serif;
+    line-height: 36px;
+}
+
+.fl-field .widget-wrapper input[type="text"] {
+    width: 100%;
+    margin: 0 !important;
+    border-color: #ddd !important;
+}
+
+.fl-builder-settings-fields .widget-wrapper input[type=text],
+.fl-builder-settings-fields .widget-wrapper input[type=password],
+.fl-builder-settings-fields .widget-wrapper input[type=file],
+.fl-builder-settings-fields .widget-wrapper input[type=email],
+.fl-builder-settings-fields .widget-wrapper input[type=number],
+.fl-builder-settings-fields .widget-wrapper input[type=search],
+.fl-builder-settings-fields .widget-wrapper input[type=tel],
+.fl-builder-settings-fields .widget-wrapper input[type=url],
+.fl-builder-settings-fields .widget-wrapper select:not(multiple) {
+    height: auto !important;
+}
+
+.fl-field .widget-wrapper .jeg-color-picker,
+.fl-field .widget-wrapper.type-checkbox input[type="checkbox"] {
+    display: none !important;
+}
+
+.fl-field .widget-wrapper.type-dynamic-select .selectized {
+    display: none !important;
+}
+
+.fl-field .widget-wrapper input[type="range"] {
+    width: calc(100% - 125px);
+}
+
+.fl-field .widget-wrapper .wp-picker-input-wrap .button {
+    color: #555;
+    background: #e9e9e9;
+    box-shadow: none;
+    vertical-align: top;
+    font-weight: normal;
+    padding: 3px 10px;
+    border: 2px solid #ddd;
+    font-size: 11px;
+    margin: 0 5px !important;
+}
+
+.fl-field .wp-color-result-text {
+    font-weight: normal;
+    font-size: 11px !important;
+    letter-spacing: normal;
+    line-height: 22px !important;
+    margin-right: 1px;
+}
+
+.fl-field .wp-picker-container .wp-color-result.button {
+    border: 1px solid #adadad;
+    background: transparent;
+}

@@ -1,0 +1,2 @@
+(()=>{"use strict";const e=window.wp.hooks;"undefined"!=typeof wc_stripe_german_market_params&&"on"===wc_stripe_german_market_params.second_checkout&&(0,e.addFilter)("wc_stripe_should_create_payment_method","paymentplugins/stripe",(function(e){return e||(e=!0),e}))})();
+//# sourceMappingURL=checkout.js.map

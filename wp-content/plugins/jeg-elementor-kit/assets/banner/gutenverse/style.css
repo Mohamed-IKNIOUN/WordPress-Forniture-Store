@@ -1,0 +1,51 @@
+.gutenverse-banner:not(.fetch) {
+	background: url('gutenverse-background.svg');
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+
+}
+
+.gutenverse-banner .banner-content {
+	background: rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(10px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 8px;
+	margin: 30px;
+	padding: 42px 16px 40px 17px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+.gutenverse-banner .banner-content .logo-wrapper {
+	margin-bottom: 18.47px;
+}
+
+.gutenverse-banner .banner-content .main-content {
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 20.33px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-weight: 400;
+}
+
+.gutenverse-banner .buttons {
+	font-size: 12px;
+	line-height: 14.06px;
+}
+
+.gutenverse-banner .buttons a {
+	padding: 11px 24px;
+	background: #FFFFFF;
+	border-radius: 50px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	color: #0051DD;
+}
+
+.gutenverse-banner.fetch a img {
+	border-radius: 5px;
+}

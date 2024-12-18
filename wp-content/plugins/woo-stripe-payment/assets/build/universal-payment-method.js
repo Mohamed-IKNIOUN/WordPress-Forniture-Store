@@ -1,0 +1,2 @@
+(()=>{"use strict";var e,t={103:e=>{e.exports=window.wcStripeModules.checkoutModules}},r={};(0,(e=function e(s){var o=r[s];if(void 0!==o)return o.exports;var i=r[s]={exports:{}};return t[s](i,i.exports,e),i.exports}(103)).registerPaymentMethod)(new e.CheckoutGateway(wc_stripe_upm_checkout_params,"#wc-stripe-upm-element")),(this.wcStripeModules=this.wcStripeModules||{}).universalPaymentMethod={}})();
+//# sourceMappingURL=universal-payment-method.js.map

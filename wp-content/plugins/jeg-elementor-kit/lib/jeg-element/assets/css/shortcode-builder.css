@@ -1,0 +1,174 @@
+
+.shortcode-tab {
+    display: none;
+    background: #fff;
+    z-index: 99999;
+    position: fixed;
+    width: 1152px;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 90vh;
+    height: auto;
+    top: 5vh;
+    right: auto;
+    left: 50px;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px rgba(16, 16, 16, 0.4);
+}
+
+.shortcode-option-wrapper {
+    top: 10vh;
+    width: 750px;
+    height: auto;
+}
+
+.shortcode-tab.active {
+    display: block;
+}
+
+.popup-header {
+    padding: 25px 20px;
+    background: #2C3D55;
+    color: #fff;
+    position: relative;
+}
+
+.popup-header h2 {
+    padding: 0;
+    color: #fff;
+    margin: 0;
+}
+
+.popup-header .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #fff;
+    color: #3a3a3a;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.shortcode-tab .tabbed-list {
+    padding: 0;
+    margin: 0 0;
+    border: none;
+    background: #3E4C5E;
+}
+
+.shortcode-tab .tabbed-list:after {
+    display: table;
+    width: 100%;
+    content: '';
+}
+
+.shortcode-tab .tabbed-list li {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    background: #3E4C5E;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.shortcode-tab .tabbed-list li,
+.shortcode-tab .tabbed-list li span {
+    border: none;
+    padding: 14px 20px;
+}
+
+.shortcode-tab .tabbed-body {
+    width: auto;
+    padding: 0;
+    height: auto;
+    overflow-y: scroll;
+    float: none;
+    min-height: auto;
+}
+
+.shortcode-tab .tabbed-list li.active,
+.shortcode-tab .tabbed-list li:hover {
+    background: #536271;
+}
+
+.popup-content .jeg_tabbed_body {
+    display: none;
+}
+
+.popup-content .jeg_tabbed_body.active {
+    display: block;
+}
+
+.popup-content {
+    height: auto;
+    overflow-x: scroll;
+}
+
+.popup-content .jeg_metabox_body {
+    padding: 20px 30px;
+}
+
+.popup-content .jeg_metabox_body .element {
+    float: left;
+    height: 100px;
+    width: 16.2%;
+    text-align: center;
+    cursor: pointer;
+    background: #f0f0f0;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    margin-right: 5px;
+}
+
+.popup-content .jeg_metabox_body .element i {
+    height: 60px;
+    display: block;
+    margin: 0 auto !important;
+}
+
+.popup-content .jeg_metabox_body .element span {
+    font-weight: bold;
+    color: #666;
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.popup-content .jeg_metabox_body:after {
+    display: block;
+    width: 100%;
+    content: "";
+    clear: both;
+}
+
+.popup-footer {
+    background: #eee;
+    padding: 20px;
+    text-align: right;
+}
+
+.popup-footer .close,
+.popup-footer .generate {
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.popup-footer .close {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.popup-footer .generate {
+    background: #3E4C5E;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 5px;
+}

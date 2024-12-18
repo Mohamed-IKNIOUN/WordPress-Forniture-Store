@@ -1,0 +1,200 @@
+.jeg_accordion_body {
+    background: #fff;
+}
+
+/** checkbox **/
+
+.checkbox-container {
+    display: block;
+    margin: 10px 5px 15px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-container input:checked + .switch {
+    background: #d4e4ff;
+}
+
+.checkbox-container .switch {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    display: inline-block;
+    width: 35px;
+    height: 12px;
+    border-radius: 8px;
+    background: #ebebeb;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: background 350ms ease;
+}
+
+.checkbox-container input:checked + .switch::after {
+    background: #5f9bff;
+    transform: translate3d(100%, -50%, 0);
+}
+
+.checkbox-container .switch::after {
+    background: #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -50%, 0);
+}
+
+.checkbox-container .switch::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -3px;
+    transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+}
+
+/** range slider **/
+
+.slider-wrapper {
+    margin-left: 5px;
+}
+
+.slider-wrapper input[type="range"] {
+    -webkit-appearance: none;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 5px;
+    width: calc(100% - 100px);
+    padding: 0;
+}
+
+.slider-wrapper .jeg_range_value {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 49px;
+    border: 1px solid #ddd;
+    margin-left: 8px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.slider-wrapper .jeg_range_value {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slider-wrapper .jeg-slider-reset {
+    color: rgba(0, 0, 0, 0.2);
+    float: right;
+    -webkit-transition: color 0.5s ease-in;
+    -moz-transition: color 0.5s ease-in;
+    -ms-transition: color 0.5s ease-in;
+    -o-transition: color 0.5s ease-in;
+    transition: color 0.5s ease-in;
+}
+
+.slider-wrapper .jeg-slider-reset span {
+    font-size: 16px;
+    line-height: 30px !important;
+    cursor: pointer;
+}
+
+/** Number **/
+
+.number-wrapper {
+    position: relative;
+}
+
+.number-wrapper input {
+    width: 100% !important;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button {
+    position: absolute;
+    right: 0;
+    color: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 0 5px;
+    width: 20px;
+    height: calc(50% + 0.5em);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: transparent;
+    background: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button.ui-spinner-up {
+    top: 5px;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button.ui-spinner-down {
+    top: 18px;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button > span {
+    display: none;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button.ui-spinner-up::before {
+    content: "\f343";
+    font-family: dashicons;
+}
+
+.number-wrapper .ui-spinner.ui-widget-content .ui-spinner-button.ui-spinner-down::before {
+    content: "\f347";
+    font-family: dashicons;
+}
+
+
+/** alert **/
+
+.fl-field[data-type='alert'] .fl-field-label {
+    display: none;
+}
+
+/** select **/
+
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=text],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=password],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=file],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=email],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=number],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=search],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=tel],
+.fl-builder-settings-fields .dynamic-select-wrapper input[type=url],
+.fl-builder-settings-fields .dynamic-select-wrapper select:not(multiple) {
+    height: auto !important;
+}
+
+/** radio image **/
+
+.radio-image-wrapper label .radioimage_field {
+    display: none !important;
+}
+
+.radio-image-wrapper label {
+    display: inline-block;
+    margin: 3px;
+    vertical-align: top;
+}
+
+.radio-image-wrapper label img {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 3px;
+}
+
+.radio-image-wrapper label .radioimage_field:checked ~ img {
+    border-color: #278ab7;
+    background-color: #278ab7;
+}

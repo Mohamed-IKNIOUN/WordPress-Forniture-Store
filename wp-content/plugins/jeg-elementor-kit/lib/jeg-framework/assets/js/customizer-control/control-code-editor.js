@@ -1,0 +1,1 @@
+wp.customize.controlConstructor['jeg-code-editor'] = wp.customize.controlConstructor.code_editor;

@@ -1,0 +1,69 @@
+label {
+    cursor: pointer;
+}
+/**
+ * Element
+ */
+.elementor-panel .widget-wrapper .wp-picker-container.wp-picker-active
+{
+    position: relative;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container .wp-color-result.button {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container:not(.wp-picker-active),
+.elementor-panel .widget-wrapper .wp-picker-container.wp-picker-active .wp-color-result{
+    float: none;
+    width: 100%;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container.wp-picker-active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding-top: 0;
+    right: 0;
+    border-width: 0;
+    display: inline;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container.wp-picker-active .wp-picker-input-wrap {
+    padding-left: 1px;
+    padding-bottom: 5px;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-clear.button {
+    height: 21px;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container .iris-picker {
+    border: 1px solid #ddd;
+}
+
+.elementor-panel .widget-wrapper .wp-picker-container.wp-picker-active .wp-picker-input-wrap {
+    float: none;
+}
+
+.elementor-control-input-wrapper.type-alert {
+    margin-top: 0 !important;
+}
+
+.elementor-control-type-alert:before {
+    display: none !important;
+}
+
+.elementor-control-type-alert .widget-alert {
+    margin-top: 0;
+}
+
+.elementor-control-type-alert .widget-alert strong {
+    line-height: 1.4em;
+}
+
+.elementor-control-type-alert .widget-alert .alert-description {
+    line-height: 1.4em;
+    font-size: 12px;
+}

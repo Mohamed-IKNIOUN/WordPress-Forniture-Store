@@ -1,0 +1,1 @@
+!function(t){"use strict";t(".jkit-notice-close, .jkit-banner-close").on("click",(function(){t(".jkit-notice-banner.update").fadeOut(),t.post(ajaxurl,{action:"jkit_notice_banner_close"})})),t(".jkit-notice-action-button").on("click",(function(){return t(".jkit-notice-banner.update").fadeOut(),t.post(ajaxurl,{action:"jkit_notice_banner_review"}),!0}))}(jQuery);
